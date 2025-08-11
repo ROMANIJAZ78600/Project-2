@@ -483,16 +483,19 @@ textarea {
     position: absolute;
     top: 1750px;
     left: 325px;
+    z-index: 2;
   }
   #minus2 {
     position: absolute;
     top: 1750px;
     left: 625px;
+    z-index: 2;
   }
   #minus3 {
     position: absolute;
     top: 2160px;
     left: 325px;
+    z-index: 2;
   }
   .container {
     width: 600px;
@@ -518,9 +521,30 @@ textarea {
   .email {
     width: 220px;
   }
+  #footer h2 {
+    margin-left: 300px;
+  }
   #footer p {
     font-size: 18px;
     position: relative;
     left: 220px;
+  }
+  .info1 {
+    position: absolute;
+    top: 1770px;
+    left: 100px;
+    z-index: 1;
+  }
+  .info2 {
+    position: absolute;
+    top: 1770px;
+    left: 400px;
+    z-index: 1;
+  }
+  .info {
+    position: absolute;
+    top: 2180px;
+    left: 100px;
+    z-index: 1;
   }
 }
