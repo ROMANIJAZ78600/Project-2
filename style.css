@@ -441,4 +441,86 @@ textarea {
   font-size: 20px;
 }
 @media screen and (max-width: 600px) {
+  header {
+    width: 800px;
+  }
+  h1 {
+    position: absolute;
+    left: 30%;
+  }
+  svg {
+    position: absolute;
+    left: 355px;
+  }
+  h2 {
+    margin-left: 265px;
+  }
+  #customers {
+    height: 180vh;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 80px;
+    grid-gap: 20px;
+  }
+  .third {
+    margin-top: 150px;
+  }
+  #team {
+    height: 180vh;
+  }
+  #team h2 {
+    margin-left: 330px;
+  }
+  #team-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    margin-left: 100px;
+  }
+  #minus {
+    position: absolute;
+    top: 1750px;
+    left: 325px;
+  }
+  #minus2 {
+    position: absolute;
+    top: 1750px;
+    left: 625px;
+  }
+  #minus3 {
+    position: absolute;
+    top: 2160px;
+    left: 325px;
+  }
+  .container {
+    width: 600px;
+  }
+  .mail-icon img {
+    position: absolute;
+    top: 2850px;
+    left: 50px;
+    height: 220px;
+  }
+  .contact-form {
+    width: 300px;
+    position: absolute;
+    top: 2850px;
+    left: 400px;
+  }
+  textarea {
+    width: 220px;
+  }
+  .text {
+    width: 220px;
+  }
+  .email {
+    width: 220px;
+  }
+  #footer p {
+    font-size: 18px;
+    position: relative;
+    left: 220px;
+  }
 }
